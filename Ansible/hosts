@@ -23,6 +23,10 @@
 ## 192.168.1.100
 ## 192.168.1.110
 10.1.0.8 ansible_python_interpreter=/usr/bin/python3
+10.1.0.7 ansible_python_interpreter=/usr/bin/python3
+
+[elk]
+10.2.0.4 ansible_python_interpreter=/usr/bin/python3
 
 # If you have multiple hosts following a pattern you can specify
 # them like this:
